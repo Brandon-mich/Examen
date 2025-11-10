@@ -14,15 +14,34 @@
     <main>
         <section class="baloncesto">
             <h2>Baloncesto: Más que un Juego, una Pasión</h2>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg0WnRDFtx6lDQHmIn7pGesAlAfRgFHOKo3w&s">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg0WnRDFtx6lDQHmIn7pGesAlAfRgFHOKo3w&s" 
+                 alt="Jugadores de baloncesto en acción durante un partido">
            
             <p>El baloncesto, conocido también como básquetbol, es un deporte de equipo dinámico y emocionante que se juega entre dos conjuntos de cinco jugadores en una cancha rectangular. El objetivo principal es anotar puntos lanzando un balón a través de un aro (cesta) colocado a 3.05 metros de altura.</p>
+            
+            <!-- 🔘 Botones para dirigir a secciones -->
+            <div class="botones">
+                <button onclick="document.getElementById('origen').scrollIntoView({behavior: 'smooth'});">📜 Origen</button>
+                <button onclick="document.getElementById('reglas').scrollIntoView({behavior: 'smooth'});">🏀 Reglas</button>
+                <button onclick="document.getElementById('impacto').scrollIntoView({behavior: 'smooth'});">🌍 Impacto</button>
+                <button onclick="window.scrollTo({top: 0, behavior: 'smooth'});">🔝 Inicio</button>
+            </div>
+        </section>
+
+        <!-- 🔽 Secciones de información -->
+        <section id="origen">
             <h3>Orígenes e Innovación del Baloncesto</h3>
             <p>Inventado en 1891 por James Naismith en Springfield College, Massachusetts, el baloncesto surgió como una alternativa menos lesiva al fútbol americano.</p>
             <p>Naismith ideó trece reglas básicas que sentaron las bases del juego moderno. Originalmente, se utilizaban cestas de melocotones como aros, de ahí el nombre "baloncesto".</p>
+        </section>
+
+        <section id="reglas">
             <h3>Reglas y Estrategias Clave</h3>
             <p>El baloncesto se rige por una serie de reglas que incluyen el manejo del balón (dribbling), los tiros a canasta, los pases, la defensa y el juego en equipo.</p>
             <p>Las estrategias de juego varían desde ataques rápidos y transiciones veloces hasta defensas zonales y marcajes individuales.</p>
+        </section>
+
+        <section id="impacto">
             <h3>Impacto Cultural y Popularidad Global</h3>
             <p>El baloncesto ha trascendido las fronteras deportivas para convertirse en un fenómeno cultural global, con una enorme base de aficionados en todo el mundo.</p>
             <p>La NBA (National Basketball Association) es la liga profesional más prestigiosa y seguida a nivel mundial, con jugadores icónicos que se han convertido en leyendas del deporte.</p>
@@ -30,7 +49,7 @@
     </main>
 
     <footer>
-        <p></p>
+        <p>&copy; 2025 Mundo del Baloncesto. Todos los derechos reservados.</p>
     </footer>
 </body>
 </html>
